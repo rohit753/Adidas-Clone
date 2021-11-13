@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delivery Detatils</title>
+    <style>
+        *{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        #logoImgA{
+            width:60px; margin-left: 100px; 
+        }
+        #navContainerA{
+            display: flex; margin-left: 70px;
+        }
+        #navContainerA > div > div{
+            width: 18px; height: 20px; color: white; background-color: black;
+             border-radius: 50%; margin:-4px 10px 10px 30px; text-align: center; padding: 2px;
+             font-size: 14px;
+        }
+        #navContainerA > div{
+            display: flex; font-size: 12px; margin-top: 30px; font-weight: bold; letter-spacing: 1px;
+        }
+        #queA{
+            color: gray; margin-left: 200px;
+        }
+        .marginA{
+            margin-left: 100px;
+        }
+        #addContainerA{
+            display: flex; width: 85%; margin-left: 100px;
+        }
+        #leftA{
+            width: 68%; 
+        }
+        #rightA{
+            width: 28%; margin-left: 4%;
+        }
+        .fsNameA{
+            width: 48%; height: 50px;
+        }
+        .fsNameA:nth-child(2){
+            margin-left: 1.2%;
+        }
+        .addA{
+            width: 99%; height: 50px; margin-top: 35px;
+        }
+        .addA+p, .contA+p{
+            font-size: 10px; color: gray; line-height: 2px; margin-left: 10px; margin-bottom: -10px;
+        }
+        .pinMarginA{
+            margin-top: 35px;
+        }
+        #countryA{
+            margin-top: 50px; font-size: 14px;
+        }
+        #countryA>span:nth-child(1){
+            font-weight: bold;
+        }
+        #leftA > span > div {
+            width: 25px; height: 25px; background-color: gray; text-align: center; font-size: 20px;
+            margin-top: -47px; margin-left: 150px;
+        }
+        #standA{
+            width: 99.8%; height: 100px; border: 1px rgb(196, 195, 195) solid; margin-top: 30px; margin-bottom: 30px;
+        }
+        #free{
+            margin-top: -85px; margin-left: 700px;
+        }
+        .contA{
+            display: block;
+            width: 50%;
+            height: 50px; margin-top: 25px; 
+        }
+        #checkBoxsA{
+            width: 95%; margin-top: 70px;
+        }
+        .checkIt{
+            width: 25px; height: 25px;
+        }
+        #RandP{
+            width: 170px; height: 20px; background-color: black; color: white;
+            padding: 15px; box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px,
+             rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        }
+        #RandP:hover{
+            color: rgb(177, 175, 175); font-weight: bold;
+        }
+        #logInDiv{
+            border: 1px solid rgb(158, 157, 157); padding: 20px;
+        }
+        #logA{
+            line-height: 0px;
+        }
+        #logE{
+            width: 98%; height: 50px; margin-top: 25px;
+        }
+        #show{
+            margin-left: 80%; line-height: 0px; margin-top: 35px; text-decoration-line: underline;
+        }
+        #logP{
+            width: 98%; height: 50px;
+        }
+        #forgot{
+            line-height: 0px;text-decoration-line: underline; margin-bottom: 40px;
+        }
+        #loginBtn{
+            width: 90%; margin-top: 20px; height: 20px; background-color: black;color: white;
+            text-align: center; padding: 15px;
+        }
+        #loginBtn+p{
+            margin-left: 8.5%;
+        }
+        #faceLog{
+            width: 90%; margin-top: 20px; height: 20px; padding: 15px; border: 0.5px solid black;
+        }
+        #faceLog>span{
+            margin-right: 130px;
+        }
+        #orderA{
+            border: 1px solid rgb(158, 157, 157); padding: 20px; margin-top: 20px;
+        }
+        #promoA{
+            width: 98%; height: 40px; margin-top: 20px; margin-bottom: 20px;
+        }
+        #helpA{
+            border: 1px solid rgb(158, 157, 157); padding: 20px; margin-top: 20px;
+        }
+        #lastPara{
+            width: 97.5%; height: 60px; margin-top: 100px; background-color: rgb(65, 63, 63);
+            color: rgb(179, 179, 179); font-size: 12px; text-align: center; padding: 20px;
+        }
+        #lastPara>a{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <img id="logoImgA" src="https://www.freepnglogos.com/uploads/adidas-logo-png-hd-17.png" alt="">
+    <div id="navContainerA">
+        <div><div>1</div>BAG</div>
+        <div><div>2</div>DELIVERY</div>
+        <div><div>3</div>PAYMENT</div>
+        <div><div>4</div>ORDER COMPLETE</div>
+        <div id="queA"> &#9743; QUESTIONS? &ensp;<a href="#">1800-120-3300</a> &ensp; &ensp; 8AM - 8PM, 7 days a week</div>
+    </div>
+    <hr>
+    <h1 class="marginA">SHIPPING ADDRESS</h1>
+    <div id="addContainerA">
+        <div id="leftA">
+            <div>
+                <input class="fsNameA" id="inP1" type="text" placeholder="First Name *">
+                <input class="fsNameA" id="inP2" type="text" placeholder="Last Name *">
+            </div>
+            <input class="addA" id="inP3" type="text" placeholder="Street Address *">
+            <p>E.g.3 Stripes Street</p>
+            <input class="addA" id="inP4" type="text" placeholder="Landmark *">
+            <p>E.g. Company, Apartment, Building, etc.</p>
+            <div class="pinMarginA">
+                <input class="fsNameA" id="inP5" type="text" placeholder="Additional Info *">
+                <input class="fsNameA" id="inP6" type="text" placeholder="City *">
+            </div>
+            <div class="pinMarginA">
+                <input class="fsNameA" id="inP7" type="text" placeholder="State *">
+                <input class="fsNameA" id="inP8" type="number" placeholder="Pin Code *">
+            </div>
+            <div id="countryA"><span>Country:</span><span>&ensp; India</span></div>
+            <span><h2>ARRIVING</h2><div>?</div></span>
+            <div id="standA">
+                <h4>&ensp; STANDARD DELIVERY</h4>
+                <p>&ensp; &#x1f69a; within 3-9 business days</p>
+                <p id="free">FREE</p>
+            </div>
+            <h2>CONTACT INFORMATION</h2>
+            <p>We'll use these details to keep you informed on your delivery.</p>
+            <input class="contA" id="inP9" type="email" placeholder="Email *">
+            <input class="contA" id="inP10" type="number" placeholder="Mobile Number *">
+            <p>we'll only call you if there are questions regarding your order.</p>
+            <div id="checkBoxsA">
+                <input type="checkbox" class="checkIt"> 
+                <span> My Billing and delivery information are the same.</span>
+                <br><br><br>
+                <input type="checkbox" class="checkIt"> 
+                <span> I'm 18+ years old. *</span>
+                <br><br><br>
+                <p>Also want product updates with our newsletter?</p>
+                <input type="checkbox" class="checkIt"> 
+                <span>I consent to Adidas India Marketing Pvt. Ltd. using my personal data for marketing
+                     and openion research purposes.This includes analysing my overall interactions with adidas
+                      (Such as my shopping history, use of apps, social media and personal data I share with adidas)
+                    in order to send me personalized commercial masseges about adidas products. aidas may contact me through 
+                email, SMS, regular email, apps or though other communication channels provided by me.</span><br>
+                <a href="#">What does this mean?</a>
+                <br><br><br>
+                <input type="checkbox" class="checkIt"> 
+                <span> I have read and accepted the <a href="#">Terms & Conditions</a> and the adidas <a href="#">privacy policy</a>. *</span>
+                <br><br><br>
+                <div id="RandP">
+                    REVIEW & PAY &#8594
+                </div>
+            </div>
+        </div>
+        <div id="rightA">
+            <div id="logInDiv">
+                <h1 id="logA">LOG IN</h1>
+                <input id="logE" type="email" placeholder="Email *">
+                <p id="show">SHOW</p>
+                <input id="logP" type="password" placeholder="password *">
+                <p id="forgot">Forggoten Your Password?</p>
+                <div id="logOp">
+                    <input id="checkIt" type="checkbox"><span>Keep Me Loged In. <a href="">More Info</a></span>
+                    <div id="loginBtn">LOG IN &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &#8594</div>
+                    <p>OR</p>
+                    <div id="faceLog"><span>FACEBOOK</span><img width="25px" 
+                        src="https://1000logos.net/wp-content/uploads/2021/04/Facebook-logo.png"></div>
+                </div>
+            </div>
+            <div id="orderA">
+                <h2>ORDER SUMMARY</h2>
+                <div style="display: inline-block;width:50%;">
+                    <p id="p1A">Price</p>
+                    <p id="p2A">ON Sale 10%</p>
+                    <p id="p3A">Delivery</p>
+                    <p id="P4A">Total</p>
+                    <h6>[inclusive of all taxes]</h6>
+                </div>
+                <div style="display: inline-block;width: 45%;vertical-align: top;text-align: right;">
+                    <p id="pA1"></p>
+                    <p id="pA2"></p>
+                    <p id="pA3">FREE</p>
+                    <p id="pA4"></p>
+                </div>
+                <!-- <p id="p1A"><span>Price</span><span class="orderdetail">1</span></p>
+                <p id="p2A"><span>On Sale</span><span class="orderdetail">Flat 10%</span></p>
+                <p id="p3A"><span>Delivery</span><span class="orderdetail">FREE</span></p>
+                <p id="p4A"><span>TOTAL</span><span></span><span class="orderdetail">4</span></p> -->
+                <!-- <h4>5</h4> -->
+            </div>
+            <input  id="promoA" type="text" placeholder="Enter Your Promo Code">
+            <button onclick="promo()">APPLY</button>
+            <div id="helpA">
+                <p>NEED HELP?</p>
+                <a href="#">Delivery</a><br><br>
+                <a href="#">Return & Refund</a><br><br>
+                <a href="#">Ordering & Payment</a><br><br>
+                <a href="#">Promotions & Vouchers</a><br><br>
+                <img src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/enIN/Images/visa-master-rupay-cd_tcm209-732258.png">
+            </div>
+        </div>
+    </div>
+    <div id="lastPara">
+        | <a href="#">Privacy Statement</a> | <a href="#">Terms & Conditions</a><br><br>
+        <div>© 2021 adidas India Marketing Private Limited</div>
+    </div>
+</body>
+</html>
+<script>
+    // var input1= document.getElementById("inP1").value;
+    // var input2= document.getElementById("inP2").value;
+    // var input3= document.getElementById("inP3").value;
+    // var input4= document.getElementById("inP4").value;
+    // var input5= document.getElementById("inP5").value;
+    // var input6= document.getElementById("inP6").value;
+    // var input7= document.getElementById("inP7").value;
+    // var input8= document.getElementById("inP8").value;
+    // var input9= document.getElementById("inP9").value;
+    // var input10= document.getElementById("inP10").value;
+    document.getElementById("RandP").addEventListener("click", goToPay);    
+    function goToPay(){
+        window.location.href= "payment.html";    
+    }
+    var bill=JSON.parse(localStorage.getItem("PAY"));
+    console.log(bill.total)
+    function promo(){
+        var pr=document.getElementById("promoA").value
+        console.log(pr);
+        if(pr=="masai30"){bill.total=Math.floor(bill.total*=0.7); console.log(bill)
+        
+            document.getElementById("pA1").textContent=bill.total;
+    var dis=Math.ceil(bill.total*0.1);
+    document.getElementById("pA2").textContent=-dis;
+    var final=document.getElementById("pA4").textContent=bill.total-dis;
+   localStorage.setItem("Final",final);
+        
+        
+        }
+       // bill.
+    }
+    document.getElementById("pA1").textContent=bill.total;
+    var dis=Math.ceil(bill.total*0.1);
+    document.getElementById("pA2").textContent=-dis;
+    var final=document.getElementById("pA4").textContent=bill.total-dis;
+   localStorage.setItem("Final",final);
+</script>
