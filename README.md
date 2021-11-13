@@ -1,2 +1,0 @@
-# Adidas-Clone
-Adidas clone 
