@@ -56,7 +56,7 @@
           ><a class="a1" href="#"><p>FREE RETURNS</p></a>
         </div>
         <div id="navDiv2">
-          <a href="index.html"><img src="https://i.ibb.co/k6qgSnB/Adidas-Logo-svg.png" alt="" /></a>
+          <a href="index.html"><img src="Adidas_Logo.svg.png" alt="" /></a>
           <div class="a2" id="fav">
             <a href="MensVideo.html" id="men"><p>MEN</p></a>
             <a href="WOmenPage.html" id="women"><p>WOMEN</p></a>
