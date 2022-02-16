@@ -9,7 +9,7 @@ Adidas is a German multinational corporation, founded and headquartered in Herzo
 <strong>Tech Stacks:</strong><br/>
 1.HTML<br/>
 2.CSS <br/>
-3.DOM <br/>
+3.Js(DOM) <br/>
 <strong>Flow of website:</strong>
 
 Firstly we will land on Home page on Adidas clone. In Home page we can see the over view of websites and day more liked and solded products.<br/>
